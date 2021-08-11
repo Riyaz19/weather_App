@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>weather_info</title>
+</head>
+
+<body>
+    <div class="main-app">
+        <div class="nav-bar">
+            <input type="text" id="input-box" class="input-box" placeholder="enter the city" autocomplete="off"> 
+        </div>
+        <div class="weather-body-info">
+            <div class="location">
+                <div class="city" id="city">Delhi</div>
+                <div class="date">31 jan(sunday), 2021</div>
+            </div>
+            <div class="weather-staus">
+                <div class="temp" id="temp">32&deg;C</div>
+                <div class="min-max"id="min-max">32&deg;C (min) /34&deg;C (max)</div>
+                <div class="weahter" id="weather">clear</div>
+                <div class="img"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- <h1 class="heading"> °</h1> -->
+    <button onclick="myFunction()">click</button>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./weather.js"></script>
+    
+</body>
+
+</html>
